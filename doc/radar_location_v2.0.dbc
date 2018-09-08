@@ -1,0 +1,275 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: AZ_ECU MRR
+VAL_TABLE_ VOLVO_SHORT_TRACK_PLANT 1 "Gent" 0 "Torslanda" ;
+VAL_TABLE_ Grating_Lobe 1 "Detected" 0 "Not_Detected" ;
+VAL_TABLE_ GroupingChanged 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_TABLE_ Oncoming 1 "Oncoming" 0 "NotOncoming" ;
+VAL_TABLE_ UPDATED 1 "Updated" 0 "Not_Updated" ;
+VAL_TABLE_ FOUND_TARGET 1 "Found" 0 "Not_Found" ;
+VAL_TABLE_ FACTORY_ALIGN_STATUS 5 "FAIL_VAR_TOO_LARGE" 4 "FAIL_DEV_TOO_LARGE" 3 "FAIL_NO_TARGET" 2 "SUCCESS" 1 "BUSY" 0 "OFF" ;
+VAL_TABLE_ RECOMMEND 1 "Recommend" 0 "Not_Recommend" ;
+VAL_TABLE_ SA_TYPE 1 "VOLVO_SHORT_TRACK" 0 "AUTO_OR_DEALER" ;
+VAL_TABLE_ ENABLE 1 "Enabled" 0 "Disabled" ;
+VAL_TABLE_ CONVERGED 1 "Converged" 0 "Not_Converged" ;
+VAL_TABLE_ WHEEL_SLIP 3 "Invalid_3" 2 "Traction_Slip_Control" 1 "Brake_Slip_Control" 0 "No_Control" ;
+VAL_TABLE_ TURN_SIGNAL_STATUS 3 "Invalid_3" 2 "Right" 1 "Left" 0 "Off" ;
+VAL_TABLE_ DISABLE 1 "Disabled" 0 "Enabled" ;
+VAL_TABLE_ SYSTEM_POWER_MODE 7 "7invalid" 6 "TEST" 5 "HOST_SHUTDOWN" 4 "DSP_OFF" 3 "DSP_SHUTDOWN" 2 "RADIATE_ON" 1 "RADIATE_OFF" 0 "DSP_INIT" ;
+VAL_TABLE_ Water_Spray_Detected 1 "Spray" 0 "No_Spray" ;
+VAL_TABLE_ Bridge 1 "Bridge" 0 "Not_Bridge" ;
+VAL_TABLE_ MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_TABLE_ Interface_Version 15 "zInvalid0F" 14 "zInvalid0E" 13 "zInvalid0D" 12 "zInvalid0C" 11 "zInvalid0B" 10 "zInvalid0A" 9 "zInvalid09" 8 "zInvalid08" 7 "zInvalid07" 6 "zInvalid06" 5 "zInvalid05" 4 "zInvalid04" 3 "zInvalid03" 2 "zInvalid02" 1 "ADP_DV1" 0 "TDP" ;
+VAL_TABLE_ SIM_STATUS 3 "Coasted" 2 "Updated" 1 "New" 0 "Invalid" ;
+VAL_TABLE_ SIM_TRACK_ID 2 "Target_2" 1 "Target_1" 0 "No_Target" ;
+VAL_TABLE_ SIM_FUNCTION 7 "All_Stat_RI_FCW_CMbB" 6 "All_Moving_ACC_FCW_CMbB" 5 "CMbB_Stat" 4 "CMbB_Move" 3 "FCW_Stat" 2 "FCW_Move" 1 "RI" 0 "ACC" ;
+VAL_TABLE_ UPSIDE_DOWN 1 "Upside_Down" 0 "Right_Side_Up" ;
+VAL_TABLE_ MR_LR_MODE 3 "Output MR and LR tracks" 2 "Output only LR-range tracks" 1 "Output only MR-range tracks" 0 "Reserved" ;
+VAL_TABLE_ GROUP 3 "Group4" 2 "Group3" 1 "Group2" 0 "Group1" ;
+VAL_TABLE_ NODETECT_DETECT 1 "Detect" 0 "No_Detect" ;
+VAL_TABLE_ TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_TABLE_ NOTCROSSING_CROSSING 1 "Crossing" 0 "Not_Crossing" ;
+VAL_TABLE_ NOTMOVABLE_MOVABLE 1 "Movable" 0 "Not_Movable" ;
+VAL_TABLE_ STATIONARY_MOVING 1 "Moving" 0 "Stationary" ;
+VAL_TABLE_ NOTOVERTEMP_OVERTEMP 1 "OverTemp" 0 "Not OverTemp" ;
+VAL_TABLE_ NOTBLOCKED_BLOCKED 1 "Blocked" 0 "Not Blocked" ;
+VAL_TABLE_ NOTFAIL_FAIL 1 "Failed" 0 "Not Failed" ;
+VAL_TABLE_ UNGROUPED_GROUPED 3 "Group_Moving_Stationary" 2 "Group_Stationary_Only" 1 "Group_Moving_Only" 0 "No_Grouping" ;
+VAL_TABLE_ FILTERED_RAW 1 "Raw" 0 "Filtered" ;
+VAL_TABLE_ OFF_ON 1 "On" 0 "Off" ;
+VAL_TABLE_ SW_SIGN 1 "Clockwise" 0 "Counterclockwise" ;
+VAL_TABLE_ VALIDITY 1 "Valid" 0 "Invalid" ;
+VAL_TABLE_ VEHICLE_SPEED_DIRECTION 1 "Reverse" 0 "Forward" ;
+
+
+BO_ 1285 Location06: 8 MRR
+ SG_ MRR_Location06_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location06_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location06_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location06_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1286 Location07: 8 MRR
+ SG_ MRR_Location07_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location07_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location07_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location07_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1307 Location28: 8 MRR
+ SG_ MRR_Location28_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location28_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location28_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location28_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1308 Location29: 8 MRR
+ SG_ MRR_Location29_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location29_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location29_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location29_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1303 Location24: 8 MRR
+ SG_ MRR_Location24_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location24_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location24_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location24_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1298 Location19: 8 MRR
+ SG_ MRR_Location19_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location19_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location19_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location19_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1306 Location27: 8 MRR
+ SG_ MRR_Location27_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location27_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location27_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location27_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1309 Location30: 8 MRR
+ SG_ MRR_Location30_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location30_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location30_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location30_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1292 Location13: 8 MRR
+ SG_ MRR_Location13_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location13_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location13_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location13_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1297 Location18: 8 MRR
+ SG_ MRR_Location18_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location18_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location18_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location18_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1305 Location26: 8 MRR
+ SG_ MRR_Location26_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location26_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location26_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location26_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1310 Location31: 8 MRR
+ SG_ MRR_Location31_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location31_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location31_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location31_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1296 Location17: 8 MRR
+ SG_ MRR_Location17_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location17_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location17_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location17_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1299 Location20: 8 MRR
+ SG_ MRR_Location20_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location20_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location20_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location20_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1291 Location12: 8 MRR
+ SG_ MRR_Location12_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location12_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location12_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location12_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1288 Location09: 8 MRR
+ SG_ MRR_Location09_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location09_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location09_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location09_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1289 Location10: 8 MRR
+ SG_ MRR_Location10_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location10_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location10_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location10_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1301 Location22: 8 MRR
+ SG_ MRR_Location22_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location22_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location22_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location22_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1295 Location16: 8 MRR
+ SG_ MRR_Location16_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location16_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location16_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location16_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1300 Location21: 8 MRR
+ SG_ MRR_Location21_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location21_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location21_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location21_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1294 Location15: 8 MRR
+ SG_ MRR_Location15_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location15_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location15_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location15_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1302 Location23: 8 MRR
+ SG_ MRR_Location23_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location23_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location23_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location23_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1287 Location08: 8 MRR
+ SG_ MRR_Location08_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location08_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location08_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location08_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1304 Location25: 8 MRR
+ SG_ MRR_Location25_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location25_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location25_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location25_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1282 Location03: 8 MRR
+ SG_ MRR_Location03_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location03_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location03_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location03_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1283 Location04: 8 MRR
+ SG_ MRR_Location04_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location04_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location04_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location04_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1284 Location05: 8 MRR
+ SG_ MRR_Location05_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location05_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location05_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location05_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1311 Location32: 8 MRR
+ SG_ MRR_Location32_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location32_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location32_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location32_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1290 Location11: 8 MRR
+ SG_ MRR_Location11_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location11_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location11_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location11_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1293 Location14: 8 MRR
+ SG_ MRR_Location14_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location14_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location14_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location14_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1281 Location02: 8 MRR
+ SG_ MRR_Location02_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location02_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location02_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location02_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+BO_ 1280 Location01: 8 MRR
+ SG_ MRR_Location01_RCS : 55|16@0- (0.005,0) [-163.84|163.835] "dB"  AZ_ECU
+ SG_ MRR_Location01_RangeRate : 39|14@0- (0.01,0) [-81.92|81.91] "m/s"  AZ_ECU
+ SG_ MRR_Location01_Range : 7|11@0+ (0.1,0) [0|204.7] "m"  AZ_ECU
+ SG_ MRR_Location01_Angle : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AZ_ECU
+
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+
